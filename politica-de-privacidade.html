@@ -23,13 +23,13 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="privacy-page">
-    <header class="header header--static" id="header">
-        <div class="container header__container">
-            <a href="index.html" class="header__logo">
-                <img src="img/logo.png" alt="Bom Retiro Joias" class="header__logo-img" width="50" height="50">
-                <span class="header__logo-text">Bom Retiro Joias</span>
+    <header class="privacy-header" id="header">
+        <div class="container privacy-header__container">
+            <a href="index.html" class="privacy-header__logo" aria-label="Voltar para a página inicial">
+                <img src="img/logo.png" alt="Bom Retiro Joias" class="privacy-header__logo-img" width="50" height="50">
+                <span class="privacy-header__logo-text">Bom Retiro Joias</span>
             </a>
-            <a href="https://wa.me/5511988067168?text=Olá, vim pelo site! Gostaria de falar com a Bom Retiro Joias." class="btn btn--primary header__cta" target="_blank" rel="noopener" id="whatsapp_click">
+            <a href="https://wa.me/5511988067168?text=Olá, vim pelo site! Gostaria de falar com a Bom Retiro Joias." class="btn btn--primary privacy-header__cta" target="_blank" rel="noopener" id="whatsapp_click">
                 <i class="ri-whatsapp-line"></i> Fale conosco
             </a>
         </div>
@@ -37,18 +37,30 @@
 
     <main class="privacy">
         <section class="privacy__hero">
-            <div class="container">
+            <div class="container privacy__hero-container">
                 <div class="section__tag">Privacidade</div>
                 <h1 class="privacy__title">Política de Privacidade</h1>
                 <p class="privacy__intro">
                     Esta política explica como a Bom Retiro Joias coleta, utiliza e protege informações fornecidas por visitantes do site bomretirojoias.com.br.
                 </p>
-                <p class="privacy__updated">Última atualização: 05 de junho de 2026.</p>
+                <div class="privacy__meta">
+                    <span><i class="ri-calendar-check-line"></i> Atualizada em 05/06/2026</span>
+                    <span><i class="ri-map-pin-line"></i> Bom Retiro, São Paulo/SP</span>
+                </div>
             </div>
         </section>
 
         <section class="privacy__content">
             <div class="container privacy__container">
+                <aside class="privacy__summary" aria-label="Resumo da política">
+                    <div>
+                        <span class="privacy__summary-label">Resumo</span>
+                        <strong>Usamos dados apenas para atendimento, segurança e mensuração de campanhas.</strong>
+                    </div>
+                    <a href="https://wa.me/5511988067168" target="_blank" rel="noopener">
+                        <i class="ri-whatsapp-line"></i> Solicitar atendimento
+                    </a>
+                </aside>
                 <article class="privacy__card">
                     <h2>1. Quem Somos</h2>
                     <p>
